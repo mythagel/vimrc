@@ -8,8 +8,11 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set textwidth=120
-set relativenumber
-set number
+
+if version >= 703
+    set relativenumber
+    set number
+endif
 
 let g:netrw_liststyle=3
 let g:netrw_browse_split=2
