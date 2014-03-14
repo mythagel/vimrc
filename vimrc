@@ -44,3 +44,4 @@ else
     let g:airline_symbols.whitespace = 'Ξ'
 endif
 
+nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>
