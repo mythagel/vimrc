@@ -14,9 +14,6 @@ if version >= 703
     set number
 endif
 
-let g:netrw_liststyle=3
-let g:netrw_browse_split=2
-
 set background=dark
 colorscheme solarized
 set guioptions=
