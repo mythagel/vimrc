@@ -15,7 +15,7 @@ if version >= 703
 endif
 
 set background=dark
-colorscheme solarized
+colorscheme desert
 set guioptions=
 
 if has("gui_running")
